@@ -1,0 +1,35 @@
+body {
+  font-family: "Geist Mono", sans-serif;
+  margin: 50px;
+  border: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #111;
+}
+
+div {
+  background-color: #111;
+  background-size: cover;
+  color: #b2b2b2;
+  border-radius: 4px;
+  margin: 15px;
+  padding: 15px;
+}
+h2 {
+  color: white;
+}
+
+span {
+  color: #febe01;
+}
+
+a {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #febe01;
+  color: #111;
+  text-decoration: none;
+}
