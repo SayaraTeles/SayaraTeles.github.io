@@ -1,45 +1,62 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --cor-primaria: #111;
+    --cor-secundaria: white;
+    --cor-letra-primaria: white;
+    --cor-letra-secundaria: #b2b2b2;
+    --cor-botao-primario: #f1ed14;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-primaria: white;
+    --cor-secundaria: black;
+    --cor-letra-primaria: black;
+    --cor-letra-secundaria: blue;
+    --cor-botao-primario: #6f5509;
+  }
+}
 body {
   font-family: "Geist Mono", sans-serif;
   margin: 50px;
   border: 0;
   padding: 0;
+  background-color: var(--cor-secundaria);
 }
 
 h1 {
   text-align: center;
-  color: #111;
+  color: var(--cor-primaria);
 }
 
 section {
-  background-color: #111;
+  background-color: var(--cor-primaria);
   background-size: cover;
-  color: #b2b2b2;
+  color: var(--cor-letra-secundaria);
   border-radius: 4px;
   margin: 15px;
   padding: 15px;
 }
 h2 {
-  color: white;
+  color: var(--cor-letra-primaria);
 }
 
 span {
-  color: #febe01;
+  color: var(--cor-botao-primario);
 }
 
 a {
   padding: 10px;
   border-radius: 4px;
-  background-color: #febe01;
-  color: #111;
+  background-color: var(--cor-botao-primario);
+  color: var(--cor-primaria);
   text-decoration: none;
 }
 
 .button {
-  margin: 2rem 1rem ;
-  color: #fff;
-  background-color: #111;
+  margin: 2rem 1rem;
+  color: var(--cor-letra-primaria);
+  background-color: var(--cor-primaria);
   text-decoration: none;
-
-
-
 }
